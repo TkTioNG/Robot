@@ -511,7 +511,7 @@ void drawSpike()
 	glBindTexture(GL_TEXTURE_2D, texture_earth_spike); 
 
 	if (raise_Spike <= 0.0)
-		raise_Spike += 0.02;
+		raise_Spike += 0.03;
 
 	glPushMatrix();
 	glTranslatef(0, -1.2 + raise_Spike, 0);
